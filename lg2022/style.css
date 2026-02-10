@@ -115,6 +115,11 @@ main {
   font-weight: 400;
 }
 
+.item .name.red {
+  color: var(--red);
+  font-weight: 600;
+}
+
 .item .bar-container {
   position: relative;
   display: flex;
@@ -197,7 +202,7 @@ main {
 
 footer {
   flex: 1;
-  max-height: 32px;
+  max-height: 48px;
   align-items: center;
   display: flex;
   width: 100%;
@@ -205,8 +210,26 @@ footer {
   margin: 0 auto;
   padding: 5px;
   justify-content: space-between;
-  font-size: 12px;
-  opacity: 0.6;
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.6
+}
+
+#menu {
+  display: flex;
+  color: var(--green);
+  height: 48px;
+  line-height: 48px;
+  gap: 5px;
+}
+
+#menu a {
+  color: var(--green);
+  line-height: 48px;
+  height: 32px;
+  font-size: 16px;
 }
 
 @media (max-width: 600px) {
