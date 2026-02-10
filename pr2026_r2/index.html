@@ -8,81 +8,82 @@
   </head>
   <body>
     <header>
-      <h1>Presidenciais 2026 2ª volta</h1>
+      <div class="container">
+        <h1>Democracia PT</h1>
+        <h2>Presidenciais 2026 2ª volta</h2>
+      </div>
     </header>
     <main>
       <div id="container">
         <section id="info">
-          <h2>TOTAL VOTANTES: <span>5.483.373</span></h2>
-          <h2>TOTAL INSCRITOS: <span>10.942.173</span></h2>
+          <h2>VOTANTES: <span>5.483.373</span></h2>
+          <h2>INSCRITOS: <span>10.942.173</span></h2>
         </section>
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th class="percent">
-                <span>0%</span>
-                <span>50%</span>
-                <span>100%</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
+        <section id="items">
             
   
-      <tr>
-        <th valign="top">ABSTENÇÃO</th>
-        <td>
-          <div class="bar" style="width: 49.88771426%"></div>
-          <div class="bar-values">
-            <strong>49.89%</strong> <span>5.458.800 votos</span>
-          </div>
-        </td>
-      </tr>
-    
-      <tr>
-        <th valign="top">Antonio Jose Seguro</th>
-        <td>
-          <div class="bar" style="width: 31.82615555%"></div>
-          <div class="bar-values">
-            <strong>31.83%</strong> <span>3.482.473 votos</span>
-          </div>
-        </td>
-      </tr>
-    
-      <tr>
-        <th valign="top">Andre Ventura</th>
-        <td>
-          <div class="bar" style="width: 15.80473093%"></div>
-          <div class="bar-values">
-            <strong>15.80%</strong> <span>1.729.381 votos</span>
-          </div>
-        </td>
-      </tr>
-    
-      <tr>
-        <th valign="top">BRANCOS</th>
-        <td>
-          <div class="bar" style="width: 1.588386512%"></div>
-          <div class="bar-values">
-            <strong>1.59%</strong> <span>173.804 votos</span>
-          </div>
-        </td>
-      </tr>
-    
-      <tr>
-        <th valign="top">NULOS</th>
-        <td>
-          <div class="bar" style="width: 0.8930127498%"></div>
-          <div class="bar-values">
-            <strong>0.89%</strong> <span>97.715 votos</span>
-          </div>
-        </td>
-      </tr>
+
+        <div class="item">
+            <h2 class="name">Abstenção</h2>
+            <div class="bar-container">
+                <div class="bar  red" style="width: 49.88771426%;"></div>
+                <div class="values">
+                    <h2 class="perc">49.89%</h2>
+                    <p class="votes">5.458.800 votos</p>
+                </div>
+            </div>
+        </div>
     
 
-          </tbody>
-        </table>
+        <div class="item">
+            <h2 class="name">António José Seguro</h2>
+            <div class="bar-container">
+                <div class="bar " style="width: 31.82615555%;"></div>
+                <div class="values">
+                    <h2 class="perc">31.83%</h2>
+                    <p class="votes">3.482.473 votos</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item">
+            <h2 class="name">André Ventura</h2>
+            <div class="bar-container">
+                <div class="bar " style="width: 15.80473093%;"></div>
+                <div class="values">
+                    <h2 class="perc">15.80%</h2>
+                    <p class="votes">1.729.381 votos</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item">
+            <h2 class="name">Brancos</h2>
+            <div class="bar-container">
+                <div class="bar " style="width: 1.588386512%;"></div>
+                <div class="values">
+                    <h2 class="perc">1.59%</h2>
+                    <p class="votes">173.804 votos</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item">
+            <h2 class="name">Nulos</h2>
+            <div class="bar-container">
+                <div class="bar  red" style="width: 0.8930127498%;"></div>
+                <div class="values">
+                    <h2 class="perc">0.89%</h2>
+                    <p class="votes">97.715 votos</p>
+                </div>
+            </div>
+        </div>
+    
+
+        </section>
         <section id="chart">
           
   <div
@@ -90,17 +91,19 @@
     style="background:
       conic-gradient(
         var(--green) 0% calc(47.63 * 1%),
-        #c4ccd8 calc(47.63 * 1%) 100%
+        var(--red) calc(47.63 * 1%) 100%
       )"
   ></div>
   <div class="legend">
     <div>
       <span class="dot a"></span>
-      Representados <strong>47.63%</strong>
+      <strong>47.63%</strong>
+      <span class="l">(representados)</span>
     </div>
     <div>
       <span class="dot b"></span>
-      Não representados <strong>52.37%</strong>
+      <strong>52.37%</strong>
+      <span class="l">(não representados)</span>
     </div>
   </div>
 
